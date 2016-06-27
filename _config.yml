@@ -1,0 +1,7 @@
+exclude: [node_modules, lib, gulpfile.js, package.json]
+
+kramdown:
+  auto_ids: false
+
+collections:
+  units:

@@ -1,0 +1,15 @@
+<!-- independently distributable or reusable element -->
+<div class="post-container">
+    {% for post in site.posts limit: 3%}
+    <article class="post">
+        <a class="post-inner" href="{{ post.url }}">
+            <div class="post-header">
+                <h4>{{ post.title }}</h4>
+            </div>
+            <div class="post-body">
+                <p>{{ post.description }}</p>
+            </div>
+        </a>
+    </article>
+    {% endfor %}
+</div>

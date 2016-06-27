@@ -1,0 +1,15 @@
+<!-- promotion or call to action -->
+<div class="unit-container">
+    {% for unit in site.units limit: 3%}
+    <div class="unit">
+        <div class="unit-inner">
+            <div class="unit-header">
+                <h4>{{ unit.header }}</h4>
+            </div>
+            <div class="unit-body">
+                <p>{{ unit.body }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
