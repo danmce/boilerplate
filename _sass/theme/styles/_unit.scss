@@ -8,8 +8,7 @@
 .unit-inner {
   @extend .tile-inner;
   padding: $gutter-left-and-top $gutter-right-and-bottom $gutter-right-and-bottom $gutter-left-and-top;
-  @include border-top-radius($border-radius-base);
-  @include border-bottom-radius($border-radius-base);
+  @include border-radius($border-radius-base);
   border: 1px solid $text-color;
   background-color: lightgrey;
 }
