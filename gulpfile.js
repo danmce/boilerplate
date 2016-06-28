@@ -19,7 +19,9 @@ gulp.task('sass', function () {
             browsers: ['last 3 versions'],
             cascade: false
         }))
-        .pipe(cssmin())
+        .pipe(cssmin({
+            advanced: false
+        }))
         .pipe(rename('app.css'))
         .pipe(gulp.dest('styles'));
 });

@@ -1,6 +1,29 @@
+// Core CSS
 @import "styles/scaffolding";
 @import "styles/layout";
+@import "styles/type";
+@import "styles/code";
+@import "styles/forms";
+@import "styles/buttons";
+
+
+//Components
+@import "styles/dropdowns";
+@import "styles/input-groups";
+@import "styles/navbar";
+@import "styles/pagination";
+@import "styles/badges";
+@import "styles/jumbotron";
+@import "styles/progress-bars";
+@import "styles/panels";
+@import "styles/close";
+
 @import "styles/tile";
 @import "styles/post";
 @import "styles/unit";
 @import "styles/cell";
+
+// Components w/ JavaScript
+@import "styles/tooltip";
+@import "styles/popovers";
+@import "styles/carousel";
