@@ -1,5 +1,13 @@
+//== Grid system
+//
+//##
+
 $grid-gutter-width: 36px;
 $gutter-left-and-top: floor(($grid-gutter-width / 2));
 $gutter-right-and-bottom: ceil(($grid-gutter-width / 2));
+
+//== Jumbotron
+//
+//##
 
 $jumbotron-padding: 36px;
