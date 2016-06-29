@@ -8,7 +8,7 @@
 .unit-inner {
   @extend .tile-inner;
   @include padding();
-  @include border-radius($border-radius-base);
   @include border();
+  @include border-radius();
   background-color: $gray-lighter;
 }
