@@ -1,4 +1,4 @@
-exclude: [node_modules, lib, gulpfile.js, package.json]
+exclude: [node_modules, lib, gulpfile.js, package.json, README.md]
 
 kramdown:
   auto_ids: false
