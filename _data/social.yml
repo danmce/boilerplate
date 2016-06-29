@@ -1,0 +1,11 @@
+- name: facebook
+  url: //www.facebook.com/
+
+- name: instagram
+  url: //instagram.com/
+
+- name: twitter
+  url: //twitter.com/
+
+- name: linkedin2
+  url: //linkedin.com/

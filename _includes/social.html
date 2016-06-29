@@ -1,0 +1,7 @@
+<div class="social keypad">
+    {% for platform in site.data.social %}
+        <a href="{{ platform.url }}">
+            <span class="icon-{{ platform.name }}"></span>
+        </a>
+    {% endfor %}
+</div>
