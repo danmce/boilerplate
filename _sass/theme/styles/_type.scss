@@ -1,5 +1,14 @@
 html {
   font-size: 100%;
+  @media (min-width: $screen-tablet) {
+    font-size: 120%;
+  }
+  @media (min-width: $screen-desktop) {
+    font-size: 140%;
+  }
+  @media (min-width: $screen-lg-desktop) {
+    font-size: 160%;
+  }
 }
 body {
   @include font-size();
